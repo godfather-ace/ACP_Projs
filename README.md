@@ -17,4 +17,11 @@ ollama list
 ```
 
 ### Step 3: Server and Client Setup
-We will create two python scripts server.py and client.py for using ACP to create, run our agent and interact with it using HTTP requests. 
+We will create two python scripts ```server.py``` and ```client.py``` for using ACP to create, run our agent and interact with it using HTTP requests. 
+
+### Step 4: Agent Execution and Response
+Run ```server.py``` and ```client.py``` in two separate terminal windows respectively to check the generated response - 
+```
+uv run server.py
+uv run client.py
+```
